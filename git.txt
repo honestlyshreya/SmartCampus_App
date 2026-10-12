@@ -1,0 +1,34 @@
+# 1. Download the project
+git clone https://github.com/honestlyshreya/SmartCampus_App.git
+
+# 2. Go into the folder
+cd SmartCampus_App
+
+# 3. Install dependencies
+npm install
+
+# 4. Create their .env file and paste the Supabase keys you sent them
+
+
+
+# 1. Make sure they are up-to-date with main
+git checkout main
+git pull origin main
+
+# 2. Create a new branch named after what they are building
+git checkout -b feature-teacher-profile
+
+
+# 3. Stage and commit their changes
+git add .
+git commit -m "Added teacher profile editing feature"
+
+# 4. Push their branch to GitHub
+git push -u origin feature-teacher-profile
+
+
+
+build android
+#1 cd android
+#2 .\gradlew assembleRelease
+3 path : android/app/build/outputs/apk/release/app-release.apk
